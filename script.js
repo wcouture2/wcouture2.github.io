@@ -10,7 +10,7 @@ year.innerHTML = date.getFullYear();
 let image = document.getElementById("image");
 imageIndex = (date.getFullYear() * (date.getDate() + date.getMonth()) % 22) + 1;
 //randomIndex = Math.floor(Math.random() * 20);
-imagePath = "pictures/" + imageIndex + ".jpg";
+imagePath = "./pictures/" + imageIndex + ".jpg";
 
 image.src=imagePath;
 */
