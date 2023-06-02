@@ -1,0 +1,38 @@
+html{
+    background-color: aliceblue;
+    border-Width: 10pt;
+    border-style: ridge;
+    border-color:coral;
+    align-content: center;
+    text-align: center;
+}
+.title{
+    font-size: 48pt;
+}
+.topbar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24pt;
+    font-weight: bolder;
+    color:aliceblue;
+    text-align: center;
+    background-color:coral;
+    border-width: 8pt;
+    border-style: groove;
+    border-color: blanchedalmond;
+}
+
+.monthDay{
+    background-color:crimson;
+    font-size: 32pt;
+}
+body{
+    align-content: center;
+}
+
+#image{
+    max-width: 100%;
+    max-height: fit-content;
+    border-width: 4pt;
+    border-style: ridge;
+    border-color:blanchedalmond;
+}
