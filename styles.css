@@ -30,7 +30,7 @@ body{
 }
 
 #image{
-    max-width: 100%;
+    width: fit-content;
     max-height: fit-content;
     border-width: 4pt;
     border-style: ridge;
