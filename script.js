@@ -34,6 +34,6 @@ let links = [
 let image = document.getElementById("image");
 imageIndex = ((date.getFullYear() * date.getDate() + (date.getMonth())) % links.length) + 1;
 randomIndex = Math.floor(Math.random() * 20);
-imagePath = links[imageIndex];
+imagePath = links[randomIndex];
 
 image.src=imagePath;
