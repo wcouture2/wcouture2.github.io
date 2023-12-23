@@ -32,7 +32,7 @@ let links = [
 
 let image = document.getElementById("image");
 imageIndex = ((date.getFullYear() * date.getDate() + (date.getMonth())) % links.length) + 1;
-randomIndex = Math.floor(Math.random() * 20);
+randomIndex = Math.floor(Math.random() * links.length);
 imagePath = links[randomIndex];
 
 image.src=imagePath;
